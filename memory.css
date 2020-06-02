@@ -1,0 +1,150 @@
+.base {
+  margin: 80px;
+  padding: 30px;
+  height: 616px;
+  width: 400px;
+  background: linear-gradient(to top left, #33cccc 0%, #9999ff 81%);
+  border-radius: 20px;
+  box-shadow: 10px 10px 116px 16px rgba(0, 0, 0, 0.75);
+}
+.page2 {
+  position: relative;
+}
+.page4 {
+  position: absolute;
+  top: 130px;
+  left: -30px;
+}
+.rules {
+  display: inline-block;
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+.font1st {
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 40px;
+  line-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.font2nd {
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 18px;
+}
+.select:hover {
+  transform: scale(1.05);
+}
+
+.select {
+  display: block;
+  text-align: center;
+  padding: 6px;
+  margin: 9px;
+  height: 40px;
+  width: 210px;
+  background: linear-gradient(to top left, #33cccc 0%, #9999ff 81%);
+  border-radius: 20px;
+  box-shadow: 10px 10px 116px 16px rgba(0, 0, 0, 0.75);
+}
+.select.good {
+  padding: 5px;
+  font-size: 32px;
+  background-color: grey;
+  border-radius: 30px;
+}
+.select.wrong {
+  font-size: 20px;
+  background: linear-gradient(to bottom right, #cc66ff 9%, #3333cc 102%);
+  background-color: grey;
+  border-radius: 30px;
+}
+
+.extra {
+  font-family: 'Dancing Script', cursive;
+}
+.playButton:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+.playButton {
+  height: 50px;
+  width: 100px;
+  margin: 30px;
+  border-radius: 30px;
+  background-color: ;
+  font-size: 25px;
+  box-shadow: 10px 10px 116px 10px rgba(0, 0, 0, 0.75);
+}
+.againButton:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+.againButton {
+  height: 50px;
+  width: 200px;
+  margin: 30px;
+  border-radius: 30px;
+  background-color: ;
+  font-size: 25px;
+  box-shadow: 10px 10px 116px 10px rgba(209, 207, 207, 0.192);
+}
+.table {
+  display: flex;
+  flex-wrap: wrap;
+}
+.intro {
+  margin-bottom: 30px;
+}
+.coverPic {
+  background-image: url('cover.JPG');
+  background-size: contain;
+  height: 80px;
+  width: 80px;
+  border: 1px solid black;
+}
+.airlinePic {
+  display: none;
+  background-size: contain;
+  height: 80px;
+  width: 80px;
+  border: 1px solid black;
+}
+.square {
+  margin: 10px;
+  height: 80px;
+  width: 80px;
+  box-shadow: 10px 10px 116px 0.52px rgba(68, 65, 65, 0.75);
+}
+.guessPic {
+  background-image: url('7.JPG');
+  background-size: contain;
+  margin: 20px;
+  height: 110px;
+  width: 110px;
+  border: 1px solid black;
+  box-shadow: 10px 10px 116px 3px rgba(0, 0, 0, 0.75);
+}
+.box3page {
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 27px;
+  line-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.boxInBox {
+  line-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 80px;
+  padding: 30px;
+  width: 300px;
+  background: linear-gradient(to top left, #33cccc 0%, #9999ff 81%);
+  border-radius: 20px;
+  box-shadow: 10px 10px 116px 16px rgba(0, 0, 0, 0.75);
+}
