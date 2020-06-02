@@ -57,7 +57,7 @@ let arrInspectNext = () => {
           arrInspect[0]
         ) {
           stayShown.push(elem1);
-        } 
+        }
       });
     };
     dividePics();
@@ -96,16 +96,16 @@ document.querySelectorAll('.square').forEach((element) => {
 });
 
 let answerBank = {
-  'url("0.JPG")': 'Emirates',
-  'url("1.JPG")': 'Etihad',
-  'url("2.JPG")': 'Hawaiian',
-  'url("3.JPG")': 'Thai Airways',
-  'url("4.JPG")': 'Alitalia',
-  'url("5.JPG")': 'Quantas',
-  'url("6.JPG")': 'Aeroflot',
-  'url("7.JPG")': 'British Airways',
-  'url("8.JPG")': 'Air Tahiti',
-  'url("9.JPG")': 'Hainan',
+  '0': 'Emirates',
+  '1': 'Etihad',
+  '2': 'Hawaiian',
+  '3': 'Thai Airways',
+  '4': 'Alitalia',
+  '5': 'Quantas',
+  '6': 'Aeroflot',
+  '7': 'British Airways',
+  '8': 'Air Tahiti',
+  '9': 'Hainan',
 };
 
 let answerRandom = [
@@ -138,8 +138,8 @@ let answerRandom = [
 
 let giveAnswer = () => {
   let answerArray = [];
-  answerArray.push(answerBank[arrInspect[0]]);
-  let goodAnswer = answerBank[arrInspect[0]];
+  answerArray.push(answerBank[arrInspect[0].match(/(\d)\.JPG/)[1]]);
+  let goodAnswer = answerArray[0];
   let getRandomInt = (max) => {
     return Math.floor(Math.random() * Math.floor(max));
   };
