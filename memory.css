@@ -148,3 +148,13 @@
   border-radius: 20px;
   box-shadow: 10px 10px 116px 16px rgba(0, 0, 0, 0.75);
 }
+.cookie {
+  font-family: 'Balsamiq Sans', cursive;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #aaa;
+}
+.cookie a {
+  color: #aaa;
+}
