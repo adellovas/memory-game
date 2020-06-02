@@ -72,8 +72,8 @@
   height: 50px;
   width: 100px;
   margin: 30px;
+  border: none;
   border-radius: 30px;
-  background-color: ;
   font-size: 25px;
   box-shadow: 10px 10px 116px 10px rgba(0, 0, 0, 0.75);
 }
@@ -86,7 +86,7 @@
   width: 200px;
   margin: 30px;
   border-radius: 30px;
-  background-color: ;
+  border: none;
   font-size: 25px;
   box-shadow: 10px 10px 116px 10px rgba(209, 207, 207, 0.192);
 }
