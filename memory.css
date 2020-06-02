@@ -1,5 +1,8 @@
+body {
+  margin: 0;
+}
 .base {
-  margin: 80px;
+  margin: 80px auto;
   padding: 30px;
   height: 616px;
   width: 400px;
