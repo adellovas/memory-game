@@ -72,8 +72,9 @@ body {
   transition: 0.2s;
 }
 .playButton {
+  padding: 4px 16px;
+  background-color: white;
   height: 50px;
-  width: 100px;
   margin: 30px;
   border: none;
   border-radius: 30px;
@@ -85,6 +86,8 @@ body {
   transition: 0.2s;
 }
 .againButton {
+  padding: 4px 16px;
+  background-color: white;
   height: 50px;
   width: 200px;
   margin: 30px;
